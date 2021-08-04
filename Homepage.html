@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    #main {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+
+
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 75px;
+        justify-content: flex-end;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    ul li {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 25px;
+    }
+
+    #image {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    #search {
+
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        width: 40%;
+        border: rgb(196, 193, 193) solid 1px;
+        padding: 0 0 0 0;
+        align-items: center;
+        height: 40px;
+
+        margin-bottom: 0;
+    }
+
+    #input {
+        width: 70%;
+        height: 70%;
+        border: solid 0px;
+
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search img {
+        max-width: 30px;
+        height: auto;
+    }
+
+    #l:hover {
+        text-decoration: underline;
+    }
+    li>img{
+        padding: 9px;
+
+    }
+    li>img:hover{
+        border-radius: 20px;
+       
+        background-color: rgb(220, 224, 223);
+    }
+    #search:hover{
+        box-shadow: 0px 0px 0px 2px rgb(201, 198, 198);
+        
+    }
+    #buttons{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 0 10px;
+        
+    }
+    button{
+        margin: 5px 5px;
+        border: rgb(255, 255, 255) solid 1px;
+        padding: 5px 10px; 
+    }
+    button:hover{
+        border: solid rgb(190, 189, 189) 1px;
+    }
+</style>
+
+<body>
+    <div id="main">
+        <nav id="navbar">
+            <ul>
+                <li id="l">Photo</li>
+                <li> <img src="Icons/1x/outline_reorder_black_24dp.png" alt="1"></li>
+                <li><img src="Icons/1x/outline_account_circle_black_24dp.png" alt="1"></li>
+            </ul>
+
+        </nav>
+        <div id="image">
+            <img src="googlelogo.png" alt="Google">
+        </div>
+        <section>
+            <div id="search">
+
+                <img width="auto" src="Icons/1x/outline_search_black_24dp.png" alt="1">
+                <input type="text" name="" id="input">
+                <img width="auto" src="Icons/1x/outline_keyboard_black_24dp.png" alt="1">
+                <img width="auto" src="Icons/1x/outline_mic_black_18dp.png" alt="1">
+                </ul>
+            </div>
+        </section>
+<div id="buttons">
+    <button>Search in Google</button>
+    <button>I'm lucky</button>
+</div>
+    </div>
+</body>
+
+</html>
